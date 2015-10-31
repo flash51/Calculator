@@ -381,7 +381,7 @@ public class Calculation extends javax.swing.JFrame
     }//GEN-LAST:event_btnClearActionPerformed
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-          
+        
         if(txtDisplay.getText().length() > 0)
         {
             try
@@ -398,10 +398,12 @@ public class Calculation extends javax.swing.JFrame
         {
             txtDisplay.setText("");
         }
+        
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnSubtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubtActionPerformed
-            if(txtDisplay.getText().length() > 0 )
+            
+        if(txtDisplay.getText().length() > 0 )
         {
             try
             {
@@ -414,7 +416,7 @@ public class Calculation extends javax.swing.JFrame
                // System.out.println(e);
             }
         }
-            else 
+      else 
           {
             String takein;
             takein = txtDisplay.getText() + btnSubt.getText();
@@ -444,6 +446,7 @@ public class Calculation extends javax.swing.JFrame
     }//GEN-LAST:event_btnMultiplyActionPerformed
 
     private void btnDivideActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivideActionPerformed
+        
         if(txtDisplay.getText().length() > 0)
         {
             try{
@@ -460,6 +463,7 @@ public class Calculation extends javax.swing.JFrame
         {
             txtDisplay.setText("");
         }
+        
     }//GEN-LAST:event_btnDivideActionPerformed
 
     private void btnEqualsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEqualsActionPerformed
